@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+
+
+nav {
+  width: 100%;
+  background-color: #2b2922;
+  height: 220px;
+}
+.logo-img {
+  position: absolute;
+  left: 140px;
+  top: 20px;
+  cursor: pointer;
+
+}
+.logo {
+  width: 100px;
+  height: 40px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  left: 40%;
+  top: 30px;
+  color: #625e4f;
+}
+.a {
+  color: #fff;
+  font-weight: 500;
+}
+.list-item {
+  list-style: none;
+  margin-right: 40px;
+  cursor: pointer;
+
+}
+.btn {
+  position: absolute;
+  left: 80%;
+  top: 20px;
+}
+.button-small {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1.5px solid #70652d;
+  background: #2b2922;
+  color: #70652d;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-heading{
+  position: absolute;
+  font-size: 40px;
+  color: #ffff;
+}
+.hero-body{
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  left: 45%;  
+  top: 110px;
+  color: #908e8b;
+}
+.hero-heading{
+  position: absolute;
+  top: 100px;
+  left: 10%;
+}
+.bottom{
+  background-color: #2b2922 ;
+  color: red;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.button-large-next{
+  position: absolute;
+  left: 96%;
+  bottom:0px;
+  background: #a08f36;
+  width: 50px;
+  height: 60px;
+  color: #fff;
+  border: none;
+}
+.button-large-prev{
+  position: absolute;
+  left: 92%;
+  bottom: 0px;
+  background: #39372d;
+  width: 90px;
+  height: 60px;
+  color: #7c7032;
+  position: relative;
+}
+.button-large-prev>span{
+  border: 1px solid #FFFF00;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left:5%;
+  top:15px;
+  border:1px solid #7c7032;    
+  height:40px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:40px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.button-large-next>span{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:15px;
+  left: 10px;
+  font-size: 30px;
+  height:40px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:40px;
+  border:1px solid #f1eee1;   
+  cursor: pointer;
+}
+
+
+.justice-img{
+  width: 100%;
+  height: 320px;
+ object-fit: fill;
+}
